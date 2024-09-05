@@ -5,9 +5,10 @@ import "fmt"
 func main() { 
 
 	var (
-		big = "ooo"
-		little = "sss"
+		name string
+		surname string
 	)
-
-	fmt.Println(big,little)
+	fmt.Scan(&name)
+	fmt.Scan(&surname)
+	fmt.Println(name, surname)
 }
