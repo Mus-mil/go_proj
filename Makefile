@@ -1,3 +1,3 @@
 run:
-	go build main.go
-	./main
+	go build test.go
+	./test
